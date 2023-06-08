@@ -16,7 +16,7 @@
 }
 
 body {
-  padding-left: 14em;
+  padding-left: 0em;
   background-color: #f7f500;
   margin: 0;
   display: block;
@@ -30,7 +30,7 @@ main{
   padding-left: 100px;
 }
 .logo {
-  font-family: "Cyberpunk";
+  font-family: 'Inconsolata', monospace;
   color: var(--yellow);
   text-align: center;
   font-size: 22px;

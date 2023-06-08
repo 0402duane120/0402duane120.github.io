@@ -13,18 +13,30 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  margin: 0;
+  height: 100%;
+  display: block;
+  font-family: "GinesoSoft-ConMed";
+}
+
+body {
+  background-color: #d8da3d
+}
+
 .navbar {
   display: inline-block;
-  margin-left: 150em;
-  width: 400em;
+  margin-left: 150px;
+  width: 400px;
   height: 100%;
   background: repeating-linear-gradient(
       to bottom,
       transparent 0%,
-      var(--red-scanline) 1em,
-      var(--red-scanline) 3em,
-      var(--red-scanline) 5em,
-      var(--red-scanline) 4em,
+      var(--red-scanline) 1px,
+      var(--red-scanline) 3px,
+      var(--red-scanline) 5px,
+      var(--red-scanline) 4px,
       transparent 0.5%
     ),
     repeating-linear-gradient(
@@ -36,7 +48,7 @@
 
 .navbar ul {
   list-style-type: none;
-  padding: 0em 25em;
+  padding: 0px 25px;
 }
 
 .navbar ul li {
@@ -45,20 +57,20 @@
   /* layout */
   position: relative;
   padding: 10em;
-  margin: 15em 0em;
+  margin: 15px 0px;
   overflow: hidden;
-  width: 350em;
-  height: 54.5em;
-  clip-path: polygon(350em 0em, 350em 29em, 322em 57em, 0em 57em, 0em 0em);
+  width: 350px;
+  height: 54.5px;
+  clip-path: polygon(350px 0px, 350px 29px, 322px 57px, 0px 57px, 0px 0px);
 
   /* font */
   color: var(--red);
-  font-size: 26em;
-  text-shadow: 0em 0em 3em var(--red-glow);
+  font-size: 26px;
+  text-shadow: 0px 0px 3px var(--red-glow);
 
   /* Border */
   border-style: solid;
-  border-width: 2em;
+  border-width: 2px;
   border-color: transparent;
   /* Animation */
   transition: color 1s ease-out;
@@ -69,14 +81,14 @@
   /* Layout */
   content: "";
   position: absolute;
-  bottom: -17em;
-  right: -17em;
-  width: 30em;
-  height: 30em;
+  bottom: -17px;
+  right: -17px;
+  width: 30px;
+  height: 30px;
   transform: rotate(45deg);
 
   /* Border */
-  border-width: 2em;
+  border-width: 2px;
   border-style: solid;
   border-color: transparent;
 

@@ -26,6 +26,7 @@ body {
 body {
   background-image: url("bg.png");
   background-size: cover;
+  background-color: #f7f500;
 }
 
 .logo {

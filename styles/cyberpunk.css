@@ -13,31 +13,18 @@
   box-sizing: border-box;
 }
 
-html,
-body {
-  margin: 0;
-  height: 100%;
-  display: block;
-  font-family: "GinesoSoft-ConMed";
-}
-
-body {
-  background-image: url("bg.png");
-  background-size: cover;
-}
-
 .navbar {
   display: inline-block;
-  margin-left: 150px;
-  width: 400px;
+  margin-left: 150em;
+  width: 400em;
   height: 100%;
   background: repeating-linear-gradient(
       to bottom,
       transparent 0%,
-      var(--red-scanline) 1px,
-      var(--red-scanline) 3px,
-      var(--red-scanline) 5px,
-      var(--red-scanline) 4px,
+      var(--red-scanline) 1em,
+      var(--red-scanline) 3em,
+      var(--red-scanline) 5em,
+      var(--red-scanline) 4em,
       transparent 0.5%
     ),
     repeating-linear-gradient(
@@ -49,7 +36,7 @@ body {
 
 .navbar ul {
   list-style-type: none;
-  padding: 0px 25px;
+  padding: 0em 25em;
 }
 
 .navbar ul li {
@@ -57,21 +44,21 @@ body {
   cursor: pointer;
   /* layout */
   position: relative;
-  padding: 10px;
-  margin: 15px 0px;
+  padding: 10em;
+  margin: 15em 0em;
   overflow: hidden;
-  width: 350px;
-  height: 54.5px;
-  clip-path: polygon(350px 0px, 350px 29px, 322px 57px, 0px 57px, 0px 0px);
+  width: 350em;
+  height: 54.5em;
+  clip-path: polygon(350em 0em, 350em 29em, 322em 57em, 0em 57em, 0em 0em);
 
   /* font */
   color: var(--red);
-  font-size: 26px;
-  text-shadow: 0px 0px 3px var(--red-glow);
+  font-size: 26em;
+  text-shadow: 0em 0em 3em var(--red-glow);
 
   /* Border */
   border-style: solid;
-  border-width: 2px;
+  border-width: 2em;
   border-color: transparent;
   /* Animation */
   transition: color 1s ease-out;
@@ -82,14 +69,14 @@ body {
   /* Layout */
   content: "";
   position: absolute;
-  bottom: -17px;
-  right: -17px;
-  width: 30px;
-  height: 30px;
+  bottom: -17em;
+  right: -17em;
+  width: 30em;
+  height: 30em;
   transform: rotate(45deg);
 
   /* Border */
-  border-width: 2px;
+  border-width: 2em;
   border-style: solid;
   border-color: transparent;
 

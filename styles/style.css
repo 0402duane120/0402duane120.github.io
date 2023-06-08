@@ -17,7 +17,7 @@
 
 body {
   padding-left: 0em;
-  background-color: #f7f500;
+
   margin: 0;
   display: block;
   font-family: 'Inconsolata', monospace;
@@ -25,6 +25,10 @@ body {
 
 body {
   background-color: #f7f500;
+}
+.neon{
+  color: greenyellow;
+  text-decoration: none;
 }
 main{
   padding-left: 100px;
@@ -135,9 +139,7 @@ a {
   text-decoration: none;
   color: rgba(211, 87, 91, 0.81);
 }
-p{
-  text-align: right;
-}
+
 a:hover{
   color: aqua;
 }

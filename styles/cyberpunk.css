@@ -22,10 +22,31 @@ body {
 }
 
 body {
-  background-color: #d8da3d
+  background-image: url("bg.png");
+  background-size: cover;
 }
 
-.navbar {
+.logo {
+  font-family: "Cyberpunk";
+  color: var(--yellow);
+  text-align: center;
+  font-size: 42px;
+  text-shadow: var(--text-shadow) 2px 3px 0px;
+  line-height: 1.5;
+  padding: 25px 0px;
+}
+
+.sublogo {
+  font-family: "GinesoSoft-ConMed";
+  font-size: 24px;
+  color: var(--text-shadow);
+  text-shadow: none;
+  text-align: right;
+  letter-spacing: 24px;
+  padding-right: 15px;
+}
+
+.menu {
   display: inline-block;
   margin-left: 150px;
   width: 400px;
@@ -46,17 +67,17 @@ body {
     );
 }
 
-.navbar ul {
+.menu ul {
   list-style-type: none;
   padding: 0px 25px;
 }
 
-.navbar ul li {
+.menu ul li {
   text-transform: uppercase;
   cursor: pointer;
   /* layout */
   position: relative;
-  padding: 10em;
+  padding: 10px;
   margin: 15px 0px;
   overflow: hidden;
   width: 350px;
@@ -77,7 +98,7 @@ body {
   transition: border-color 1s ease-out;
 }
 
-.navbar ul li::after {
+.menu ul li::after {
   /* Layout */
   content: "";
   position: absolute;
@@ -97,8 +118,8 @@ body {
   transition: border-color 1s ease-out;
 }
 
-.navbar ul li:hover::after,
-.navbar ul li:hover {
+.menu ul li:hover::after,
+.menu ul li:hover {
   color: var(--blue);
   background: var(--black-hover-background);
   

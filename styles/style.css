@@ -32,7 +32,7 @@ body {
   font-family: "Cyberpunk";
   color: var(--yellow);
   text-align: center;
-  font-size: 42px;
+  font-size: 22px;
   text-shadow: var(--text-shadow) 2px 3px 0px;
   line-height: 1.5;
   padding: 25px 0px;
@@ -124,9 +124,19 @@ body {
 .menu ul li:hover {
   color: var(--blue);
   background: var(--black-hover-background);
-  
+
   border-color: var(--blue);
 
   transition: color 0.23s linear;
   transition: border-color 0.23s linear;
+}
+a {
+  text-decoration: none;
+  color: rgba(211, 87, 91, 0.81);
+}
+p{
+  text-align: right;
+}
+a:hover{
+  color: aqua;
 }

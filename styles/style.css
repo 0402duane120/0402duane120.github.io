@@ -52,7 +52,12 @@ main{
   letter-spacing: 24px;
   padding-right: 15px;
 }
-
+.main p{
+  padding-top: 0%;
+  padding-left: 500px;
+  text-align: right;
+  width: 100%;
+}
 .menu {
   display: inline-block;
   margin-left: 100px;
@@ -143,3 +148,9 @@ a {
 a:hover{
   color: aqua;
 }
+footer{
+  text-align: center;
+  background-color: aqua;
+  margin-bottom: 0%;
+}
+

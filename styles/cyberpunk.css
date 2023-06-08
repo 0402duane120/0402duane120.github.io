@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
 :root {
   --red: rgba(211, 87, 91, 0.81);
   --red-glow: rgba(211, 87, 91, 0.91);
@@ -18,7 +20,7 @@ body {
   margin: 0;
   height: 100%;
   display: block;
-  font-family: "GinesoSoft-ConMed";
+  font-family: 'Inconsolata', monospace;
 }
 
 body {
@@ -37,7 +39,7 @@ body {
 }
 
 .sublogo {
-  font-family: "GinesoSoft-ConMed";
+  font-family: 'Inconsolata', monospace;
   font-size: 24px;
   color: var(--text-shadow);
   text-shadow: none;

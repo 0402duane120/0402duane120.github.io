@@ -141,3 +141,38 @@ p{
 a:hover{
   color: aqua;
 }
+  body {
+   padding-left: 14em;
+   font-family: Georgia, "Times New Roman",
+          Times, serif;
+		  color: black;
+    background-color: #d8da3d }
+	 ul.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+	position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 12em }
+	h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+		ul.menu li {
+    text-transform: uppercase;
+	cursor: pointer;
+	background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black }
+
+  ul.menu a {
+    text-decoration: none }
+  a:link {
+    color: blue }
+  a:visited {
+    color: purple }
+	address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted }

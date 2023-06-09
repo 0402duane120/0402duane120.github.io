@@ -102,7 +102,7 @@ h1{
   transform: rotate(45deg);
 
   /* Border */
-  border-width: 2px;
+  border-width: 2 px;
   border-style: solid;
   border-color: transparent;
 
@@ -117,16 +117,14 @@ h1{
   cursor: pointer;
   /* layout */
   position: relative;
-  padding: 10px;
-  margin: 15px 0px;
   overflow: hidden;
-  width: 235px;
+  width: 350px;
   height: 54.5px;
   clip-path: polygon(350px 0px, 350px 29px, 322px 57px, 0px 57px, 0px 0px);
 
   /* font */
   color: rgba(211, 87, 91, 0.81);
-  font-size: 20px;
+  font-size: 26px;
   text-shadow: 0px 0px 3px var(--red-glow);
   font-weight: bold;
  

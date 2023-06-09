@@ -171,7 +171,8 @@ a:hover{
   a:link {
     color: blue }
   a:visited {
-    color: purple }
+    color: rgba(211, 87, 91, 0.81);
+  }
 	address {
     margin-top: 1em;
     padding-top: 1em;
